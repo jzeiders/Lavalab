@@ -1,0 +1,39 @@
+h1{
+	color: #202020;
+	text-align: center;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-delay: .25s;
+}
+
+h2{
+	color: #202020;
+	text-align: center;
+	-webkit-animation-duration: 1.5s;
+	-webkit-animation-delay: .5s;
+}
+
+.padding{
+	padding: 5px;
+}
+
+body{
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.head-gray{
+	height: 25px;
+	background-color: #202020;
+}
+
+.head-orange{
+	height: 12px;
+	background-color: #FF6F00;
+}
+
+.logo{
+	max-width: 500px;
+	margin: 0 auto;
+	-webkit-animation-duration: .25s;
+	-webkit-animation-delay: .25s;
+}
