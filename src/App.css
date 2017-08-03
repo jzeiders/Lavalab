@@ -64,6 +64,10 @@
   max-width: 50px;
 }
 
+.landing-logo {
+  max-width: 6%;
+  height: auto;
+}
 @media (min-aspect-ratio: 16/9) {
   .video-foreground { height: 300%; top: -100%; }
 }
