@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '../App.css';
 import YouTube from 'react-youtube';
 
-import Button from './Button';
+import LavaButton from './Button';
 
 class Landing extends Component {
   render() {
@@ -38,9 +38,9 @@ class Landing extends Component {
         <h1>WELCOME TO LAVALAB</h1>
         <h1>F u r t h e r i n g \ (•◡•) / I n n o v a t i o n</h1>
         <h1> We are innovators! swag moniez. </h1>
-        <Button text="Apply" link="https://www.reddit.com/r/nba/" />
-        <Button text="Explore" link="https://www.reddit.com/r/nba/" />
-        <Button text="Check Out the New Cohort" link="https://www.reddit.com/r/nba/" />
+        <LavaButton text="Apply" link="https://www.reddit.com/r/nba/" />
+        <LavaButton text="Explore" link="https://www.reddit.com/r/nba/" />
+        <LavaButton text="Check Out the New Cohort" link="https://www.reddit.com/r/nba/" />
 
 
         <img className="downarrow" src="downarrow.png" />

@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 import '../App.css';
+import { Button } from 'react-bootstrap';
 
-class Button extends Component {
+
+class LavaButton extends Component {
   render() {
     return (
-      <div>
-        <a href={this.props.link}>
+        <Button href={this.props.link}>
           {this.props.text}
-        </a>
-      </div>
+        </Button>
 
     );
   }
 }
-export default Button;
+export default LavaButton;
