@@ -17,37 +17,11 @@
   margin: 0 auto;
 }
 
-.wave{
-  background:
-    linear-gradient(to right, sandybrown, chocolate);
-  height: 0px;
-  position: relative;
-}
-
-.wave::before{
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background-repeat: repeat;
-  height: 10px;
-  background-size: 20px 20px;
-  background-image:
-    radial-gradient(circle at 10px -5px, transparent 12px, orange 13px);
-}
-
-.wave::after{
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background-repeat: repeat;
-  height: 15px;
-  background-size: 40px 20px;
-  background-image:
-    radial-gradient(circle at 10px 15px, orange 12px, transparent 13px);
+.top {
+    height:0;
+    border-width:75px 0px 0px 100vw;
+    border-style:solid;
+    border-color:transparent transparent orange orange;
 }
 
 .newCohort {
@@ -58,6 +32,7 @@
 
 .newCohort h1 {
   padding-top: 5vh;
+  margin: 0 auto;
   font-weight: 700;
 }
 

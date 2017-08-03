@@ -64,10 +64,11 @@ class Landing extends Component {
 class NewCohort extends Component {
   render() {
     return (
-      <div className="wave">
-        <div className="newCohort">
-          <h1> Meet the New Cohort! </h1>
-        </div>
+      <div>
+      <div className="top"></div>
+      <div className="newCohort">
+        <h1> Meet the New Cohort! </h1>
+      </div>
       </div>
     );
   }
