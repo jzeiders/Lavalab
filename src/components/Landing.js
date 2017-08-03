@@ -1,0 +1,56 @@
+import React, { Component } from 'react';
+import '../App.css';
+import YouTube from 'react-youtube';
+
+import Button from './Button';
+
+class Landing extends Component {
+  render() {
+    const { strings } = this.props;
+    const opts = {
+      playerVars: {
+        autoplay: 1,
+        controls: 0,
+        showinfo: 0,
+        modestbranding: 0,
+        loop: 1,
+        fs: 0,
+        cc_load_policy: 0,
+        iv_load_policy: 3,
+        autohide: 0,
+        rel: 0,
+        start: 41,
+      }
+    }
+    return (
+      <div className="landing">
+        <div className="video-background">
+          <div className="video-foreground">
+            <YouTube
+              videoId="gox_wSvIFtY"
+              opts={opts}
+              onReady={this._onReady}
+              onStateChange={this._onStateChange}
+            />
+          </div>
+        </div>
+        <img src="lavalab.png" />
+        <h1> We are innovators! swag moniez. </h1>
+        <Button text={"Apply"} link={"https://www.reddit.com/r/nba/"} />
+        <Button text={"Apply"} link={"https://www.reddit.com/r/nba/"} />
+        <Button text={"Apply"} link={"https://www.reddit.com/r/nba/"} />
+      </div>
+    );
+  }
+  _onReady(event) {
+    // access to player in all event handlers via event.target
+    event.target.mute();
+  }
+  _onStateChange(event){
+      if (event.data === 0) {
+        event.target.playVideo();
+      }
+  }
+}
+
+export default Landing;
