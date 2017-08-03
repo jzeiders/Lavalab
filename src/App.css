@@ -59,6 +59,11 @@
   filter: blur(5px);
 }
 
+.downarrow {
+  max-height: 50px;
+  max-width: 50px;
+}
+
 @media (min-aspect-ratio: 16/9) {
   .video-foreground { height: 300%; top: -100%; }
 }

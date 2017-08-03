@@ -36,7 +36,7 @@ class Landing extends Component {
         </div>
         <img src="lavalab.png" />
         <h1>WELCOME TO LAVALAB</h1>
-        <h1>F u r t h e r i n g      I n n o v a t i o n</h1>
+        <h1>F u r t h e r i n g \ (•◡•) / I n n o v a t i o n</h1>
         <h1> We are innovators! swag moniez. </h1>
         <Button text="Apply" link="https://www.reddit.com/r/nba/" />
         <Button text="Explore" link="https://www.reddit.com/r/nba/" />
