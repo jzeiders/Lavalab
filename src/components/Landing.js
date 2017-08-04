@@ -3,6 +3,7 @@ import '../App.css';
 import YouTube from 'react-youtube';
 
 import LavaButton from './Button';
+import NavBar from './NavBar';
 
 class Landing extends Component {
   render() {
@@ -34,6 +35,7 @@ class Landing extends Component {
             />
           </div>
         </div>
+        <NavBar />
         <img className="landing-logo" src="lavalab.png" />
         <h1>WELCOME TO LAVALAB</h1>
         <h1>F u r t h e r i n g \ (•◡•) / I n n o v a t i o n</h1>
