@@ -3,13 +3,34 @@
 }
 
 button {
-  background: #76B3FA;
+  background: rgba(0,0,0,.075);
   border-radius: 100px;
-  padding: 20px 60px;
-  color: #fff;
+  padding: 7px 30px;
+  color: #eb7203;
   text-decoration: none;
   font-size: 1.45em;
   margin: 0 15px;
+  border-color:#eb7203;
+  border-style: solid;
+  border-width: 4px;
+}
+
+/* Grow */
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
 }
 
 .landing {
