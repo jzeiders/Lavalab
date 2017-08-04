@@ -6,7 +6,7 @@ import { Button } from 'react-bootstrap';
 class LavaButton extends Component {
   render() {
     return (
-        <Button href={this.props.link}>
+        <Button href={this.props.link} bsStyle="primary">
           {this.props.text}
         </Button>
 
