@@ -37,10 +37,10 @@ class Landing extends Component {
         <img className="landing-logo" src="lavalab.png" />
         <h1>WELCOME TO LAVALAB</h1>
         <h1>F u r t h e r i n g \ (•◡•) / I n n o v a t i o n</h1>
-        <h1> We are innovators! swag moniez. </h1>
-        <LavaButton text="Apply" link="https://www.reddit.com/r/nba/" />
-        <LavaButton text="Explore" link="https://www.reddit.com/r/nba/" />
-        <LavaButton text="Check Out the New Cohort" link="https://www.reddit.com/r/nba/" />
+        <h1> We are innovators! swag moniez. </h1> <br/> <br/>
+        <LavaButton text="Apply" link="https://www.reddit.com/r/nba/" /> <br/><br/>
+        <LavaButton text="Explore" link="https://www.reddit.com/r/nba/" /> <br/><br/>
+        <LavaButton text="Check Out the New Cohort" link="https://www.reddit.com/r/nba/" /> <br/><br/>
 
 
         <img className="downarrow" src="downarrow.png" />
