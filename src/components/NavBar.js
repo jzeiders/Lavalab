@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../css/NavBar.css';
+import '../App.css';
 
 import MediaQuery from 'react-responsive'
 
