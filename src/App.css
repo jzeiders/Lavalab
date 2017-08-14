@@ -8,7 +8,7 @@ button {
   padding: 7px 30px;
   color: #eb7203;
   text-decoration: none;
-  font-size: 1.45em;
+  font-size: 2em;
   margin: 0 15px;
   border-color:#eb7203;
   border-style: solid;
@@ -45,26 +45,100 @@ button {
 
 .landing h1 {
   color: white;
+  padding-top: 7.5vh;
+  font-size: 5em;
   margin: 0 auto;
+}
+
+.typewriter {
+  padding-left:1vw;
+  padding-right:1vw;
+  background-color: white;
+  color: #eb7203;
+  -webkit-border-radius: 10px; 
+  -moz-border-radius: 10px; 
+  border-radius: 10px; 
 }
 
 .top {
     height:0;
     border-width:75px 0px 0px 100vw;
     border-style:solid;
-    border-color:transparent transparent orange orange;
+    border-color:transparent transparent #eb7203 #eb7203;
 }
 
-.newCohort {
+.topBlack {
+    height:0;
+    border-width:75px 0px 0px 100vw;
+    border-style:solid;
+    border-color:transparent transparent #000000 #000000;
+}
+
+.topReverse {
+    height:0;
+    border-width: 0px 0px 75px 100vw;
+    border-style:solid;
+    border-color:transparent transparent #eb7203 transparent;
+}
+
+.bottom {
+    height:0;
+    border-width:75px 0px 0px 100vw;
+    border-style:solid;
+    border-color:#eb7203 #eb7203 transparent transparent;
+}
+
+.bottomReverse {
+    height:0;
+    border-width: 0px 0px 75px 100vw;
+    border-style:solid;
+    border-color:transparent transparent #eb7203 transparent;
+}
+
+.team {
   width: 100vw;
-  height: 100vh;
-  background-color: orange;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
 }
 
-.newCohort h1 {
+.team h1 {
+  margin: 0px;
   padding-top: 5vh;
-  margin: 0 auto;
+  color: #eb7203;
+  font-family: 'tk-proxima-nova-n7';
+  margin-top: 0px;
   font-weight: 700;
+}
+
+.curriculum, .newCohort {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  background-color: #eb7203;
+}
+
+.curriculum h1, .newCohort h1 {
+  margin: 0px;
+  padding-top: 5vh;
+  color: black;
+  font-family: 'tk-proxima-nova-n7';
+  margin-top: 0px;
+  font-weight: 700;
+}
+
+.curriculum p, .newCohort p {
+  padding-top: 1.5em;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-bottom: 1.5em;
+  color: black;
+  font-size: 1.5em;
+}
+
+.curriculum b {
+  font-family: 'tk-proxima-nova-n7';
 }
 
 .video-background {
@@ -87,7 +161,7 @@ button {
   -moz-filter: blur(5px);
   -o-filter: blur(5px);
   -ms-filter: blur(5px);
-  filter: blur(5px);
+  filter: blur(5px) brightness(50%);
 }
 
 .downarrow {
@@ -95,10 +169,12 @@ button {
   max-width: 50px;
 }
 
-.landing-logo {
-  max-width: 6%;
+#landing-logo {
+  max-width: 100%;
+  width: 80vw;
   height: auto;
 }
+
 @media (min-aspect-ratio: 16/9) {
   .video-foreground { height: 300%; top: -100%; }
 }

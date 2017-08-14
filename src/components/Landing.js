@@ -4,9 +4,12 @@ import YouTube from 'react-youtube';
 
 import LavaButton from './Button';
 import NavBar from './NavBar';
+import Typewriter from '../scripts/Typewriter';
 
 class Landing extends Component {
   render() {
+
+    // for youtube player
     const opts = {
       playerVars: {
         autoplay: 1,
@@ -22,6 +25,7 @@ class Landing extends Component {
         start: 41,
       }
     }
+
     return (
       <div className="landing">
         <div className="video-background">
@@ -34,16 +38,20 @@ class Landing extends Component {
             />
           </div>
         </div>
-        <NavBar />
-        <img alt="landing logo" className="landing-logo" src="lavalab.png" />
-        <h1>WELCOME TO LAVALAB</h1>
-        <h1>F u r t h e r i n g \ (•◡•) / I n n o v a t i o n</h1>
-        <h1> We are innovators! swag moniez. </h1> <br/> <br/>
+        <img alt="landing logo" id="landing-logo" src="LavaLabLogo_Splash.png" />
+        <h1> We are <Typewriter
+    speed={88}
+    tag="span"
+    className="typewriter"
+    text={["innovators", "disruptors", "designers", "entrepreneurs", "creators", "developers", "risk-takers",
+           "thinkers", "ideators", "visionaries", "Lavalab."]}
+    randomSpeed={true} />
+        </h1>
+     <br/> <br/>
         <div className="row">
-          <LavaButton text="Apply" link="https://www.reddit.com/r/nba/" /> <br/><br/>
-          <LavaButton text="Explore" link="https://www.reddit.com/r/nba/" /> <br/><br/>
+          <LavaButton text="Apply" link="https://www.reddit.com/r/nba/" />
+          <LavaButton text="Explore" link="#curriculum" />
         </div>
-        <img alt="landing arrow" className="downarrow" src="downarrow.png" />
       </div>
     );
   }

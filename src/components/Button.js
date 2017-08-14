@@ -4,9 +4,9 @@ import '../App.css';
 class LavaButton extends Component {
   render() {
     return (
-        <button href={this.props.link} className="hvr-grow">
+        <a href={this.props.link}><button className="hvr-grow">
           {this.props.text}
-        </button>
+        </button></a>
     );
   }
 }
