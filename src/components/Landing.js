@@ -38,7 +38,8 @@ class Landing extends Component {
             />
           </div>
         </div>
-        <img alt="landing logo" id="landing-logo" src="LavaLabLogo_Splash.png" />
+        <img alt="landing logo" id="landing-logo" className="hidden-mobile" src="LavaLabLogo_Splash.png" />
+        <img alt="landing logo" id="landing-logo-mobile" className="visible-mobile" src="LavalabLogo_Orange.png" />
         <h1> We are <Typewriter
     speed={88}
     tag="span"
@@ -49,7 +50,7 @@ class Landing extends Component {
         </h1>
      <br/> <br/>
         <div className="row">
-          <LavaButton text="Apply" link="https://www.reddit.com/r/nba/" />
+          <LavaButton text="Apply" link="https://f17lavalab.typeform.com/to/jhcnR4" />
           <LavaButton text="Explore" link="#curriculum" />
         </div>
       </div>

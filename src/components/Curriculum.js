@@ -6,7 +6,7 @@ class Curriculum extends Component {
     return (
       <div>
       <div className="topReverse"></div>
-      <div className="curriculum">
+      <div className="curriculum" onclick="window.location.hash='back'">
         <h1> What do we do? </h1>
         <p> Founded in 2013, <b>LAVALAB</b> is <b>USC's premier product incubator</b>. Every semester, Lavalab
         admits a cohort of approximately 25 students from USC’s top talent in engineering, business, and design.

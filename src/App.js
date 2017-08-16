@@ -8,6 +8,7 @@ import NewCohort from './components/NewCohort';
 import Curriculum from './components/Curriculum';
 import Team from './components/Team';
 import NavBar from './components/NavBar';
+import Profile from './components/Profile';
 
 class App extends Component {
   render() {
