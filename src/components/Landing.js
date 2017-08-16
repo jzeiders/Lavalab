@@ -49,9 +49,9 @@ class Landing extends Component {
     randomSpeed={true} />
         </h1>
      <br/> <br/>
-        <div className="row">
+        <div style={{paddingTop: '5vh'}} className="row">
           <LavaButton text="Apply" link="https://f17lavalab.typeform.com/to/jhcnR4" />
-          <LavaButton text="Explore" link="#curriculum" />
+          <LavaButton text="Explore" scrollButton="1"/>
         </div>
       </div>
     );

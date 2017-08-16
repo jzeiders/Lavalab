@@ -110,6 +110,11 @@ button {
   background-color: black;
 }
 
+.team .row {
+  text-align: center;
+  position: relative;
+}
+
 .team h1 {
   margin: 0px;
   padding-top: 5vh;
@@ -172,9 +177,17 @@ button {
 }
 
 .profile {
+  margin: 30px;
   width: 300px;
-  float: left;
   height: 350px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.profile-image {
+  padding: 25px 25px 0px 25px;
+  height: auto;
+  width: inherit;
 }
 
 .downarrow {
