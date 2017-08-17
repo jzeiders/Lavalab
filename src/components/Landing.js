@@ -49,7 +49,7 @@ class Landing extends Component {
         </h1>
      <br/> <br/>
         <div className="row">
-          <LavaButton text="Apply" link="https://www.reddit.com/r/nba/" /> <br/> <br/>
+          <LavaButton text="Apply" link="https://f17lavalab.typeform.com/to/jhcnR4" /> <br/> <br/>
           <LavaButton text="Explore" link="#curriculum" /> <br/> <br/>
           <LavaButton text="Video" link="https://www.youtube.com/watch?v=_bQz-9nY8TU&t=6s" />
         </div>

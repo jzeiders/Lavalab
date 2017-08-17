@@ -12,7 +12,7 @@ export class Footer extends React.Component {
           <ul className="social-icons">
             <li><a href="https://www.facebook.com/lavalabusc/?ref=nf" className="social-icon"> <i className="fa fa-facebook"></i></a></li>
             <li><a href="https://twitter.com/lavalabusc?lang=en" className="social-icon"> <i className="fa fa-twitter"></i></a></li>
-            <li><a href="" className="social-icon"> <i className="fa fa-linkedin"></i></a></li>
+            <li><a href="https://www.linkedin.com/company-beta/3663395/" className="social-icon"> <i className="fa fa-linkedin"></i></a></li>
             {/* <li><a href="" className="social-icon"> <i className="fa fa-instagram"></i></a></li> */}
           </ul>
         </div>
