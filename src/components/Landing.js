@@ -49,9 +49,9 @@ class Landing extends Component {
         </h1>
      <br/> <br/>
         <div className="row">
-          <LavaButton text="Apply" link="https://f17lavalab.typeform.com/to/jhcnR4" /> <br/> <br/>
-          <LavaButton text="Explore" link="#curriculum" /> <br/> <br/>
-          <LavaButton text="Video" link="https://www.youtube.com/watch?v=_bQz-9nY8TU&t=6s" />
+          <LavaButton text="Apply" link="https://f17lavalab.typeform.com/to/jhcnR4" />
+          <LavaButton text="Explore" scrollButton="1" /> <br/> <br/>
+          <LavaButton text="Video Intro" link="https://www.youtube.com/watch?v=_bQz-9nY8TU&t=6s" />
         </div>
       </div>
     );
