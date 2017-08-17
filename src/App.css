@@ -2,6 +2,84 @@
   text-align: center;
 }
 
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+.footer-social-icons {
+    width: 350px;
+    display:block;
+    margin: 0 auto;
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: 10px;
+    position: relative;
+    padding: 0px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #1a1a1a;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+.fa-instagram {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-instagram:hover {
+    background-color: #e95950;
+}
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #1a1a1a;
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+
+.fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #1a1a1a;
+}
+.fa-linkedin:hover {
+    background-color: #0073a4;
+}
+
+body {
+  color: #1a1a1a;
+}
+
 button {
   background: rgba(0,0,0,.075);
   border-radius: 100px;
@@ -78,7 +156,7 @@ button {
     height:0;
     border-width:75px 0px 0px 100vw;
     border-style:solid;
-    border-color:transparent transparent #000000 #000000;
+    border-color:transparent transparent #1a1a1a #1a1a1a;
 }
 
 .topReverse {
@@ -99,7 +177,7 @@ button {
     height:0;
     border-width: 0px 0px 75px 100vw;
     border-style:solid;
-    border-color:transparent transparent #eb7203 transparent;
+    border-color:#1a1a1a #1a1a1a transparent #1a1a1a;
 }
 
 .team {
@@ -107,7 +185,7 @@ button {
   min-height: 50vh;
   display: flex;
   flex-direction: column;
-  background-color: black;
+  background-color: #1a1a1a;
 }
 
 .team .row {
@@ -134,7 +212,7 @@ button {
 .curriculum h1, .newCohort h1 {
   margin: 0px;
   padding-top: 5vh;
-  color: black;
+  color: #1a1a1a;
   font-family: 'tk-proxima-nova-n7';
   margin-top: 0px;
   font-weight: 700;
@@ -145,7 +223,7 @@ button {
   padding-left: 10vw;
   padding-right: 10vw;
   padding-bottom: 1.5em;
-  color: black;
+  color: #1a1a1a;
   font-size: 1.5em;
 }
 
@@ -154,7 +232,7 @@ button {
 }
 
 .video-background {
-  background: #000;
+  background: #404040;
   position: fixed;
   top: 0; right: 0; bottom: 0; left: 0;
   z-index: -99;
@@ -185,9 +263,22 @@ button {
 }
 
 .profile-image {
-  padding: 25px 25px 0px 25px;
+  padding: 25px 25px 25px 25px;
   height: auto;
   width: inherit;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  background-size: cover;
+  border-radius: 100px;
+  color: #eb7203;
+  text-decoration: none;
+  font-size: 2em;
+  margin: 0 15px;
+  border-color:#eb7203;
+  border-style: solid;
+  border-width: 4px;
 }
 
 .downarrow {

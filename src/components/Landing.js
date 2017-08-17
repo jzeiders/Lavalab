@@ -38,8 +38,7 @@ class Landing extends Component {
             />
           </div>
         </div>
-        <img alt="landing logo" id="landing-logo" className="hidden-mobile" src="LavaLabLogo_Splash.png" />
-        <img alt="landing logo" id="landing-logo-mobile" className="visible-mobile" src="LavalabLogo_Orange.png" />
+        <img alt="landing logo" id="landing-logo" src="LavaLabLogo_Splash.png" />
         <h1> We are <Typewriter
     speed={88}
     tag="span"
@@ -49,9 +48,10 @@ class Landing extends Component {
     randomSpeed={true} />
         </h1>
      <br/> <br/>
-        <div style={{paddingTop: '5vh'}} className="row">
-          <LavaButton text="Apply" link="https://f17lavalab.typeform.com/to/jhcnR4" />
-          <LavaButton text="Explore" scrollButton="1"/>
+        <div className="row">
+          <LavaButton text="Apply" link="https://www.reddit.com/r/nba/" /> <br/> <br/>
+          <LavaButton text="Explore" link="#curriculum" /> <br/> <br/>
+          <LavaButton text="Video" link="https://www.youtube.com/watch?v=_bQz-9nY8TU&t=6s" />
         </div>
       </div>
     );
