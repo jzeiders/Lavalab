@@ -3,7 +3,6 @@ import '../App.css';
 import YouTube from 'react-youtube';
 
 import LavaButton from './Button';
-import NavBar from './NavBar';
 import Typewriter from '../scripts/Typewriter';
 
 class Landing extends Component {
@@ -51,7 +50,7 @@ class Landing extends Component {
         <div className="row">
           <LavaButton text="Apply" link="https://f17lavalab.typeform.com/to/jhcnR4" />
           <LavaButton text="Explore" scrollButton="1" /> <br/> <br/>
-          <LavaButton text="Video Intro" link="https://www.youtube.com/watch?v=_bQz-9nY8TU&t=6s" />
+          <LavaButton text="Video Intro" link="https://youtu.be/55Jqf3GELCc" />
         </div>
       </div>
     );

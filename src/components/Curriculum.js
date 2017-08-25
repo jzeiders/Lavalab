@@ -6,17 +6,30 @@ class Curriculum extends Component {
     return (
       <div>
       <div className="topReverse"></div>
-      <div className="curriculum" onclick="window.location.hash='back'">
-        <h1> What do we do? </h1>
-        <p> Founded in 2013, <b>LAVALAB</b> is <b>USC's premier product incubator</b>. Every semester, Lavalab
-        admits a cohort of approximately 25 students from USC’s top talent in engineering, business, and design.
-        Each cohort goes through a <b>comprehensive and iterative curriculum</b> on developing a product,
-        accompanied by <b>informative fireside chats</b> with industry leaders such as Elon Musk, Mark Stevens,
-        Nathan Patterson, and Arielle Zuckerburg. The 8-week program culminates in <b>Demo Night</b>, a
-        professional showcase of entirely student-created products, judged by distinguished industry figures.
-        Click <a href="/curriculum.jpg"><b>here</b></a> for a more detailed explanation.
-        </p>
-      </div>
+          <div className="curriculum" onclick="window.location.hash='back'">
+            <h1> Join a Fullfilling Community. </h1>
+                  <br/>
+                  <div className="row">
+                      <div className="col-md-4">
+                        <h1>Work.</h1>
+                        <p>
+                          The LavaLab network is incredibly strong and grows every graduating semester. We have members and alumni in all areas of industry, and actively maintain resume books and relationships with our industry partners and recruiters (including Apple, Snapchat, Electronic Arts, and more).
+                        </p>
+                      </div>
+                      <div className="col-md-4">
+                        <h1>Learn.</h1>
+                        <p>
+                          The LavaLab community is an inspiring and exciting academic enviroment. We'll host study nights, workshops, company tours, and many of your cohort members are also your classmates.
+                        </p>
+                      </div>
+                      <div className="col-md-4">
+                        <h1>Belong.</h1>
+                        <p>
+                          Our primary goal is to build a fun, safe community made of passionate and energetic friends. As an organization, we host select social events and retreats, tailgates, hackathons, recruiting events and more.
+                        </p>
+                      </div>
+                  </div>
+          </div>
       <div className="bottom"></div>
       </div>
     );
