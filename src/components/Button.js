@@ -18,6 +18,13 @@ class LavaButton extends Component {
         </button></a>
         );
       }
+      else if (this.props.scrollButton === "2") {
+        return (
+        <a href={this.props.link}><button className="hvr-grow curriculumButton">
+          {this.props.text}
+        </button></a>
+        );
+      }
       else {
         return (
         <a href={this.props.link}><button className="hvr-grow">

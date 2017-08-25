@@ -97,6 +97,10 @@ button {
   border-width: 4px;
 }
 
+.curriculumButton {
+    background: rgba(0,0,0,1);
+}
+
 /* Grow */
 .hvr-grow {
     display: inline-block;

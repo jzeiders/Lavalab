@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../App.css';
+import LavaButton from './Button';
 
 class Curriculum extends Component {
   render() {
@@ -29,6 +30,7 @@ class Curriculum extends Component {
                         </p>
                       </div>
                   </div>
+                  <LavaButton scrollButton="2" text="Apply" link="https://f17lavalab.typeform.com/to/jhcnR4" />
           </div>
       <div className="bottom"></div>
       </div>

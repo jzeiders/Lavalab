@@ -17,6 +17,7 @@ export class Footer extends React.Component {
           </ul>
         </div>
         <a href="design-guidelines.pdf"><b>Design Guidelines</b></a>
+        <br />
       </div>
       </div>
     );
