@@ -46,10 +46,13 @@ class Landing extends Component {
            "thinkers", "ideators", "visionaries", "Lavalab."]}
     randomSpeed={true} />
         </h1>
-     <br/> <br/>
+     <br/><br/>
+        <h3> Applications for the Fall 2017 Cohort are closed. For any inquiries, please email
+        usclavalab@gmail.com.
+        </h3>
+        <br/><br/>
         <div className="row">
-          <LavaButton text="Apply" link="https://f17lavalab.typeform.com/to/jhcnR4" />
-          <LavaButton text="Explore" scrollButton="1" /> <br/> <br/>
+          <LavaButton text="Explore" scrollButton="1" /> 
           <LavaButton text="Video Intro" link="https://youtu.be/55Jqf3GELCc" />
         </div>
       </div>

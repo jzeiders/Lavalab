@@ -147,6 +147,11 @@ button {
   margin: 0 auto;
 }
 
+.landing h3 {
+  color: #eb7203;
+  margin: 0 auto;
+}
+
 .typewriter {
   color: #ffffff;
   font-weight: 700;
