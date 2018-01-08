@@ -47,12 +47,12 @@ class Landing extends Component {
     randomSpeed={true} />
         </h1>
      <br/><br/>
-        <h3> Applications for the Fall 2017 Cohort are closed. For any inquiries, please email
-        usclavalab@gmail.com.
+        <h3> Applications for the Spring 2018 Cohort are open! Applications are due <b> January 20th. </b>
         </h3>
         <br/><br/>
         <div className="row">
-          <LavaButton text="Explore" scrollButton="1" /> 
+          <LavaButton text="Apply" link="https://usclavalab.typeform.com/to/lhzIhE" />
+          <LavaButton text="Explore" scrollButton="1" />
           <LavaButton text="Video Intro" link="https://youtu.be/55Jqf3GELCc" />
         </div>
       </div>
