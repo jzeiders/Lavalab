@@ -47,7 +47,7 @@ class Landing extends Component {
     randomSpeed={true} />
         </h1>
      <br/><br/>
-        <h3> Applications for the Spring 2018 Cohort are open! Applications are due <b> January 20th. </b>
+        <h3> Applications for the Spring 2018 Cohort are open! Applications are due <b> January 20th by Midnight. </b>
         </h3>
         <br/><br/>
         <div className="row">
