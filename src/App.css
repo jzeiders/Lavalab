@@ -155,7 +155,7 @@ button {
 .typewriter {
   color: #ffffff;
   font-weight: 700;
-  font-family: 'tk-proxima-nova-n7'
+  font-family: 'Arial';
 }
 
 .top {
@@ -210,7 +210,7 @@ button {
   margin: 0px;
   padding-top: 5vh;
   color: #eb7203;
-  font-family: 'tk-proxima-nova-n7';
+  font-family: 'Arial';
   margin-top: 0px;
   font-weight: 700;
 }
@@ -226,7 +226,7 @@ button {
   margin: 0px;
   padding-top: 5vh;
   color: #1a1a1a;
-  font-family: 'tk-proxima-nova-n7';
+  font-family: 'Arial';
   margin-top: 0px;
   font-weight: 700;
 }
@@ -241,7 +241,7 @@ button {
 }
 
 .community b {
-  font-family: 'tk-proxima-nova-n7';
+  font-family: 'Arial';
 }
 
 .community {
@@ -255,7 +255,7 @@ button {
   margin: 0px;
   padding-top: 5vh;
   color: #eb7203;
-  font-family: 'tk-proxima-nova-n7';
+  font-family: 'Arial';
   margin-top: 0px;
   font-weight: 700;
 }
@@ -270,7 +270,7 @@ button {
 }
 
 .community {
-  font-family: 'tk-proxima-nova-n7';
+  font-family: 'Arial';
 }
 
 .video-background {
