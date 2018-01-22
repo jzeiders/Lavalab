@@ -30,7 +30,6 @@ class Curriculum extends Component {
                         </p>
                       </div>
                   </div>
-                  <LavaButton scrollButton="2" text="Apply" link="https://usclavalab.typeform.com/to/lhzIhE" />
           </div>
       <div className="bottom"></div>
       </div>
