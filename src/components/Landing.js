@@ -50,7 +50,6 @@ class Landing extends Component {
         <h3> Applications are closed for the Spring 2018 semester. Check us out next Fall! </h3>
         <br/><br/>
         <div className="row">
-          <LavaButton text="Apply" link="https://usclavalab.typeform.com/to/lhzIhE" />
           <LavaButton text="Explore" scrollButton="1" />
           <LavaButton text="Video Intro" link="https://youtu.be/55Jqf3GELCc" />
         </div>
