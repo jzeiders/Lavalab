@@ -30,29 +30,30 @@ class Landing extends Component {
         <div className="video-background">
           <div className="video-foreground">
             <YouTube
-              videoId="gox_wSvIFtY"
+              videoId="DXZzI302XZs"
               opts={opts}
               onReady={this._onReady}
               onStateChange={this._onStateChange}
             />
           </div>
         </div>
-        <img alt="landing logo" id="landing-logo" src="LavaLabLogo_Splash.png" />
-        <h1> We are <Typewriter
-    speed={88}
-    tag="span"
-    className="typewriter"
-    text={["innovators", "disruptors", "designers", "entrepreneurs", "creators", "developers", "risk-takers",
-           "thinkers", "ideators", "visionaries", "Lavalab."]}
-    randomSpeed={true} />
-        </h1>
-     <br/><br/>
-        <h3> Applications are closed for the Spring 2018 semester. Check us out next Fall! </h3>
-        <br/><br/>
+        <img className="role-image" src="LavaLab_Circle_Orange.png" />
+        <br></br><br></br><br></br><br></br>
         <div className="row">
-          <LavaButton text="Explore" scrollButton="1" />
-          <LavaButton text="Video Intro" link="https://youtu.be/55Jqf3GELCc" />
+          <div className="centeredButtons">
+            <LavaButton text="Explore" scrollButton="1" />
+            <LavaButton text="   Video   " link="https://youtu.be/55Jqf3GELCc" />
+          </div>
         </div>
+        <h1> We are <Typewriter
+                      speed={5}
+                      tag="span"
+                      className="typewriter"
+                      text={["LAVALAB", "risk-takers", "developers", "designers",
+                             "ideators", "visionaries", "innovators", "creators",]}
+                      randomSpeed={true} />
+        </h1>
+
       </div>
     );
   }

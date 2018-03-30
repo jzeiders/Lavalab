@@ -11,15 +11,21 @@ class Team extends Component {
       <div className="team">
         <h1> The Lavalab Team </h1>
         <div className="row">
-          <Profile src="connor_duffy.jpg" title="Connor Duffy" subTitle="Managing Director" />
-          <Profile src="will-durkee.jpg" title="Will Durkee" subTitle="Director of Operations" />
-          <Profile src="vanessaqin.png" title="Vanessa Qin" subTitle="Director of Community" />
-          <Profile src="baileyjames.png" title="Bailey James" subTitle="Director of Design and Brand" />
-          <Profile src="justinhe.jpg" title="Justin He" subTitle="Director of Development" />
-          <Profile src="harry_valner.png" title="Harry Valner" subTitle="Director of Recruitment" />
-          <Profile src="mellina_silver.jpg" title="Mellina Silver" subTitle="Director of Sponsorship" />
-          <Profile src="joe_turtel.jpg" title="Joe Turtel" subTitle="Director of Industry Relations" />
-          <Profile src="abha_nath.jpg" title="Abha Nath" subTitle="Director of Finance" />
+          <div className=".col-md-*">
+            <Profile src="connor_duffy.jpg" title="Connor Gerard Duffy" subTitle="Managing Director" />
+            <Profile src="will-durkee.jpg" title="Will Durkee" subTitle="Director of Operations" />
+            <Profile src="vanessaqin.png" title="Vanessa Qin" subTitle="Director of Community" />
+          </div>
+          <div className=".col-md-*">
+            <Profile src="baileyjames.png" title="Bailey James" subTitle="Director of Design and Brand" />
+            <Profile src="justinhe.jpg" title="Justin He" subTitle="Director of Development" />
+            <Profile src="harry_valner.png" title="Harry Valner" subTitle="Director of Recruitment" />
+          </div>
+          <div className=".col-md-*">
+            <Profile src="mellina_silver.jpg" title="Mellina Silver" subTitle="Director of Sponsorship" />
+            <Profile src="joe_turtel.jpg" title="Joe Turtel" subTitle="Director of Industry Relations" />
+            <Profile src="abha_nath.jpg" title="Abha Nath" subTitle="Director of Finance" />
+          </div>
         </div>
       </div>
       <div className="bottomReverse"></div>

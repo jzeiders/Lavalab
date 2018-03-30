@@ -43,7 +43,7 @@ class Typewriter extends React.Component {
                     setTimeout(() => {
                         this.setState({text: ''});
                         this.type(this._originalString.pop());
-                    }, 1000);
+                    }, 3000);
                 }
             }
         }, speed);
@@ -59,7 +59,7 @@ class Typewriter extends React.Component {
 }
 
 Typewriter.defaultProps = {
-    speed: 75,
+    speed: 1,
     randomSpeed: false,
     tag: 'p'
 };

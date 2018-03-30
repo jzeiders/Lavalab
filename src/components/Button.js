@@ -20,7 +20,7 @@ class LavaButton extends Component {
       }
       else if (this.props.scrollButton === "2") {
         return (
-        <a href={this.props.link}><button className="hvr-grow curriculumButton">
+        <a className="buttonLink" href={this.props.link}><button className="hvr-grow curriculumButton">
           {this.props.text}
         </button></a>
         );
