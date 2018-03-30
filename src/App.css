@@ -6,7 +6,7 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 @import url("https://use.typekit.net/gzt7tob.css");
 
-.team {
+.team .row {
   vertical-align: middle;
   justify-content: center;
 }
