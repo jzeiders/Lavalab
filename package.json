@@ -1,28 +1,32 @@
 {
-  "name": "lavalabnewsite",
-  "homepage": "http://usclavalab.org",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "react": "^15.6.1",
-    "react-bootstrap": "^0.31.2",
-    "react-dom": "^15.6.1",
-    "react-ga": "^2.2.0",
-    "react-responsive": "^1.3.4",
-    "react-scripts": "1.0.10",
-    "react-scroll": "^1.5.4",
-    "react-scroll-to-component": "^1.0.1",
-    "react-youtube": "^7.4.0"
-  },
-  "scripts": {
-    "deploy": "npm run build&&gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  },
-  "devDependencies": {
-    "gh-pages": "^1.0.0",
-    "react-social-icons": "^2.7.0"
-  }
+	"name": "lavalabnewsite",
+	"homepage": "http://usclavalab.org",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"react": "^15.6.1",
+		"react-bootstrap": "^0.31.2",
+		"react-dom": "^15.6.1",
+		"react-ga": "^2.5.3",
+		"react-responsive": "^1.3.4",
+		"react-router": "^4.3.1",
+		"react-router-dom": "^4.3.1",
+		"react-scripts": "1.0.10",
+		"react-scroll": "^1.5.4",
+		"react-scroll-to-component": "^1.0.1",
+		"react-typeform-embed": "^0.1.6",
+		"react-youtube": "^7.4.0"
+	},
+	"scripts": {
+		"deploy": "npm run build && npm run sync",
+		"start": "react-scripts start",
+		"sync": "aws s3 cp ./build s3://usclavalab.org --recursive --acl public-read",
+		"build": "react-scripts build",
+		"test": "react-scripts test --env=jsdom",
+		"eject": "react-scripts eject"
+	},
+	"devDependencies": {
+		"gh-pages": "^1.0.0",
+		"react-social-icons": "^2.7.0"
+	}
 }

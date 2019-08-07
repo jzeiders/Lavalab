@@ -13,18 +13,18 @@ class Team extends Component {
 					<div className="row">
 						<div className=".col-md-*">
 							<Profile
-								src="joe_turtel.jpg"
-								title="Joseph Turtel"
+								src="ankit_m.jpg"
+								title="Ankit Mukherjee"
 								subTitle="Managing Director"
 							/>
 							<Profile
-								src="ankit_m.jpg"
-								title="Ankit Mukherjee"
+								src="gavin_bains.jpg"
+								title="Gavin Bains"
 								subTitle="Director of Operations"
 							/>
 							<Profile
-								src="natalie_pearson.jpg"
-								title="Natalie Pearson"
+								src="sahar_rohani.jpg"
+								title="Sahar Rohani"
 								subTitle="Director of Community"
 							/>
 						</div>
@@ -40,20 +40,20 @@ class Team extends Component {
 								subTitle="Director of Development"
 							/>
 							<Profile
-								src="harry_valner.jpg"
-								title="Harry Valner"
+								src="gus_goetze.jpg"
+								title="Gus Goetze"
 								subTitle="Director of Recruitment"
 							/>
 						</div>
 						<div className=".col-md-*">
 							<Profile
-								src="ryan_roddy.jpg"
-								title="Ryan Roddy"
+								src="stiven_deleur.jpg"
+								title="Stiven Deleur"
 								subTitle="Director of Sponsorship"
 							/>
 							<Profile
-								src="arielle_smith.jpg"
-								title="Arielle Smith"
+								src="nat_redfern.jpg"
+								title="Nat Redfern"
 								subTitle="Director of Industry Relations"
 							/>
 						</div>
